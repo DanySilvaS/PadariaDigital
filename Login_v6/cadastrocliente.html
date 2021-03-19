@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Cadastro do cliente</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/logo.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	<center>
+<div class="content">
+<div class="container">
+<div class="col-md-3"></div>
+<div class="col-md-6">
+<div class="content">
+<div class="content">
+<br>
+<form method = "POST">
+    <div>
+                <center>
+                <img class="img-circle img-no-padding img-responsive" width = "250px" src="images/logo.png" alt="..."/> 
+                 <h1> <span class="txt3">  <b> <b> Faça seu cadastro</b></b>  </span></h1>
+                </center>              
+            </div> 
+
+    <div class="text-left" class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label class="txt1"><b>Nome:</b></label>
+                    <input type="text" class="form-control" style="background-color: #FFFDD0; border-radius: 0px; border-color: #57b846; border-width: 3px" >
+            </div>
+
+          
+        </div>                                         
+    </div>
+    
+     <div class="text-left" class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label class="txt1"><b>CPF:</b></label>
+                    <input type="text" class="form-control" style="background-color: #FFFDD0; border-radius: 0px; border-color: #57b846; border-width: 3px"  >
+            </div>
+
+          
+        </div>                                         
+    </div>
+
+    <div class="text-left" class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label class="txt1"><b>Telefone:</b></label>
+                    <input type="text" class="form-control" style="background-color: #FFFDD0; border-radius: 0px; border-color: #57b846; border-width: 3px"  >
+            </div>
+
+          
+        </div>                                         
+    </div>
+
+     <div class="text-left" class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label class="txt1"><b><b>Nascimento:</b></b></label>
+                    <input type="text" placeholder="DD/MM/AAAA"  OnKeyPress="formatar('##/##/####', this)" class="form-control" style="background-color: #FFFDD0; border-radius: 0px; border-color: #57b846; border-width: 3px"  >
+            </div>
+
+          
+        </div>                                         
+    </div>
+    <div class="text-left" class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label class="txt1"><b>Endereço:</b></label>
+                    <input type="text" class="form-control" style="background-color: #FFFDD0; border-radius: 0px; border-color: #57b846; border-width: 3px"  >
+            </div>
+
+          
+        </div>                                         
+    </div>
+
+<div class="text-left" class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label class="txt1"><b>Ponto de referência:</b></label>
+                    <input type="text" class="form-control" style="background-color: #FFFDD0; border-radius: 0px; border-color: #57b846; border-width: 3px"  >
+            </div>  
+        </div>                                         
+</div>
+
+<div class="text-left" class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label class="txt1"><b>Número:</b></label>
+                    <input type="text" class="form-control" style="background-color: #FFFDD0; border-radius: 0px; border-color: #57b846; border-width: 3px"  >
+            </div>  
+        </div>                                         
+</div>
+
+<div class="text-left" class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label class="txt1"><b>Cidade:</b></label>
+                    <input type="text" class="form-control" style="background-color: #FFFDD0; border-radius: 0px; border-color: #57b846; border-width: 3px"  >
+            </div>  
+        </div>                                         
+</div>
+
+<div class="text-left" class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label class="txt1"><b>Estado:</b></label>
+                  <select required id="Estado" name="Estado" class="form-control"  style="background-color: #FFFDD0; border-radius: 0px; border-color: #57b846; border-width: 3px" >
+        <option value=""></option>
+      <option value="Solteiro(a)">Ceará</option>
+      <option value="Casado(a)">Paraíba</option>
+      <option value="Divorciado(a)">Rio Grande do Norte</option>
+    </select>  
+            </div>  
+        </div>                                         
+</div>
+
+<div class="text-left" class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label class="txt1"><b>Usuário:</b></label>
+                    <input type="text" class="form-control" style="background-color: #FFFDD0; border-radius: 0px; border-color: #57b846; border-width: 3px"  >
+            </div>  
+        </div>                                         
+</div>
+
+<div class="text-left" class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label class="txt1"><b>Email:</b></label>
+                    <input type="text" class="form-control" placeholder=" exemplo@hotmail.com" style="background-color: #FFFDD0; border-radius: 0px; border-color: #57b846; border-width: 3px"  >
+            </div>  
+        </div>                                         
+</div>
+
+<div class="text-left" class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label class="txt1"><b>Senha:</b></label>
+                    <input type="password" class="form-control" style="background-color: #FFFDD0; border-radius: 0px; border-color: #57b846; border-width: 3px"  >
+            </div>  
+        </div>                                         
+</div>
+
+    <div class="text-center">
+         <a class="btn btn-info btn-fill btn-wd" 
+                                   style=" color:#144E8C; 
+                                           background-color: #FFFDD0; 
+                                           border-radius: 0px; 
+                                           border-color: #57b846; 
+                                           border-width: 3px; 
+                                           width: 250px;" href="comum_login.html" role="button">Concluir</a>
+                          
+        
+
+</div>
+</form>
+
+   
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</center>
+
+	<br>
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
